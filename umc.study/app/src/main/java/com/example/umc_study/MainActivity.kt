@@ -13,7 +13,7 @@ import com.example.umc_study.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
-//    private lateinit var getResultText : ActivityResultLauncher<Intent>
+    private lateinit var getResultText : ActivityResultLauncher<Intent>
 
     companion object {
         var memo: String = ""
@@ -31,16 +31,16 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
 
-//        getResultText = registerForActivityResult(
-//            ActivityResultContracts.StartActivityForResult()
-//        ){result ->
-//            if(result.resultCode == RESULT_OK){
-//                val mString = result.data?.getStringExtra("aa")
-//
-//
-//            }
-//
-//        }
+        getResultText = registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ){result ->
+            if(result.resultCode == RESULT_OK){
+                val mString = result.data?.getStringExtra("aaa")
+
+
+            }
+
+        }
 
     }
 

@@ -30,10 +30,9 @@ class SecondActivity : AppCompatActivity() {
         }
         binding.movefirst.setOnClickListener {
 
-//            var STRING_INTENT_KEY = "aa"
-//            val mIntent = Intent(this,MainActivity::class.java).apply {
-//                putExtra(MainActivity.STRING,"BACK")
-//            }
+            val mIntent = Intent(this,MainActivity::class.java).apply {
+                putExtra("aaa","BACK")
+            }
 
         }
     }
