@@ -3,7 +3,7 @@
 </a>
 
 # University MakeUs Challenge [UMC]
-## 앱 런칭에 도전하는 대학생 IT 연합동아리 UMC에서 진행하는 Android 스터디입니다.
+## 대학생 IT 연합동아리 UMC에서 진행하는 Android 스터디입니다.
 
 
 
